@@ -14,4 +14,5 @@ print("Deal_status: ", *deal_status[0].items(), sep="\n")
 It works, but an empty list is returned.
 Apparently, this cannot be done until the deal is completed, but that's not certain
 because the same result is return with random CID
+Edited: It works correctly some time after loading
 """
