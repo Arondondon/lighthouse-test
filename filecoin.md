@@ -8,8 +8,9 @@ to decentralized storage.
 We use [Lighthouse](https://www.lighthouse.storage/) which works on FileCoin. Lighthouse is a perpetual file storage 
 protocol that allows you to pay once for your files and store them long-term.
 
-On the SingularityNET platform (currently only in the CLI), service providers can choose which storage to use 
-for metadata and .proto files. 
+On the SingularityNET platform service providers can choose which storage to use for metadata and service 
+(like .proto, etc.) files. Invoking services via AI Marketplace and publishing organizations/services via 
+Publisher Portal will be available in the next version of the FileCoin integration. 
 
 ## Usage
 
@@ -17,7 +18,7 @@ for metadata and .proto files.
 
 #### Generating
 
-The Lighthouse API key is required to use FileCoim as a storage. To get it you should sign up on 
+The Lighthouse API key is required to use FileCoin as a storage. To get it you should sign up on 
 [Lighthouse](https://lighthouse.storage/), сhoose the subscription plan (optionally) that suits you and generate 
 an API key. To get more information see [Lighthouse Quick Start](https://docs.lighthouse.storage/lighthouse-1/quick-start) 
 or [Lighthouse creating API key](https://docs.lighthouse.storage/lighthouse-1/how-to/create-an-api-key).
@@ -45,9 +46,9 @@ snet unset filecoin_api_key
 #### Storage Type argument
 
 Once you have added the API key, you can use Lighthouse to publish organization and service metadata, as well 
-as .proto files. To select a storage type, you need to specify a new named argument `--storage` in the commands 
+as service files. To select a storage type, you need to specify a new named argument `--storage` in the commands 
 you already know. This argument is used in all commands related to creating a service or organization, creating 
-and publishing their metadata and .proto files. 
+and publishing their metadata and service files. 
 
 #### Commands
 
