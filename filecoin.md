@@ -1,5 +1,8 @@
 # FileCoin
 
+If you want to use FileCoin as a storage instead of IPFS, this article is for you! Follow the steps in the 
+[usage](#usage) section.
+
 ## Core concepts
 
 [FileCoin](https://filecoin.io/) is a decentralized storage network that brings scalability, security, and privacy 
@@ -104,5 +107,5 @@ transaction arguments:
 As you can see from the example, there are two types of storage to choose from: `ipfs` and `filecoin`. If this 
 argument is not specified, `ipfs` is used by default.
 
-To get more information about using FileCoin see [LINK TO CLI DOC]() or use `-h` option in any command to see 
+To get more information about using FileCoin use `-h` option in any command to see 
 a detailed description.
