@@ -109,14 +109,3 @@ argument is not specified, `ipfs` is used by default.
 
 To get more information about using FileCoin use `-h` option in any command to see 
 a detailed description.
-
-:::code-group
-
-```sh [Windows]
-snet service publish -h
-```
-
-```sh [Linux]
-snet service publish --storage filecoin -h
-```
-:::
